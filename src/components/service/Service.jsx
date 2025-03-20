@@ -1,3 +1,5 @@
+import './service.css';
+
 const Service = () =>{
     return(
 <>
