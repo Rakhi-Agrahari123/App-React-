@@ -14,14 +14,17 @@
     padding: 0;
     margin: 10px;
 }
+.clocksvg{
+    color: #FFFFFF;
+}
 
 .nav-logo{
     width: 150px;
+    padding-top:10px ;
 }
 
 .logo{
     flex: 1;
-    /* border: 1px solid #3FBBC0; */
 
 }
 .nav-bottom{
@@ -29,7 +32,7 @@
     justify-content: space-between;
     align-items: center;
     direction: column;
-    /* padding: 5px 0px; */
+    padding: 5px 0px;
 }
 
 .nav-menubar{
@@ -63,7 +66,7 @@ color: #3FBBC0;
 
 .nav-btn button{
     border: none;
-    padding: 5px 10px;
+    padding: 8px 10px;
     font-size: 16px;
     background: #3FBBC0;
     border-radius:5px;

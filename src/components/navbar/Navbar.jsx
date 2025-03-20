@@ -1,5 +1,8 @@
 import './navbar.css';
 import logo from './../../assets/logo.png';
+import { MdOutlineWatchLater } from "react-icons/md";
+import { CiMobile2 } from "react-icons/ci";
+
 
 const Navbar = () =>{
     return(
@@ -7,8 +10,9 @@ const Navbar = () =>{
 <div className="navbar" >   
 
 <div className='nav-Top'> 
-    <div className='nav-left'><h5>Monday - Saturday, 8AM to 10PM</h5></div>
-    <div className='nav-right'><h5>Call us now +1 5589 55488 55</h5></div>
+    <div className='nav-left'><h5>{<MdOutlineWatchLater/>}
+Monday - Saturday, 8AM to 10PM</h5></div>
+    <div className='nav-right'><h5>{<CiMobile2 />}Call us now +1 5589 55488 55</h5></div>
 
 </div>
 
