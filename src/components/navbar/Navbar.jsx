@@ -13,7 +13,7 @@ const Navbar = () =>{
 </div>
 
 <div className="nav-bottom">
-    <div> <img className="nav-logo" src={logo} alt='Medicio logo'/></div>
+    <div className='logo'> <img className="nav-logo" src={logo} alt='Medicio logo'/></div>
 
     <div className='nav-menubar'>
         <ul className="nav-menu">
@@ -23,11 +23,12 @@ const Navbar = () =>{
             <li>Department</li>
             <li>Doctors</li>
             <li>Contact</li>
+            <div className='nav-btn'><button>Make an Appointment</button></div>
+
             </ul>
             
     </div>
 
-    <div className='nav-btn'><button>Make an Appointment</button></div>
 </div>
 
 
